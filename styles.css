@@ -1,0 +1,176 @@
+body {
+    font-family: 'Cormorant Upright', serif;
+    background: url('bg.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px;
+}
+
+
+/* ##Sections## */
+
+
+/* Header */
+
+header {
+    display: block;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px 0px 0px 0px;
+}
+
+.headline,
+p {
+    color: #e6e3e3;
+    text-align: center;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    text-shadow: 8px 8px 20px solid black;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+
+/* Main */
+
+.main {
+    margin-top: 20px;
+    color: #e6e3e3;
+    display: block;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    padding: 25px 0px;
+}
+
+.input-box {
+    font-family: 'Cormorant Upright', serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-right: none;
+    border-left: none;
+    border-top: 1px solid #e6e3e3;
+    border-bottom: 1px solid #e6e3e3;
+    color: #e6e3e3;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    background: transparent;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.input-box:hover {
+    background: rgba(0, 0, 0, 0.041);
+}
+
+.input-box:active,
+.input-box:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #e6e3e3;
+}
+
+.todoList {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* List */
+
+ul {
+    font-size: 2rem;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
+li {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+
+/* Buttons */
+
+.check-button,
+.trash-button {
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    outline: none;
+    -webkit-filter: invert(80%);
+    padding-left: 10px;
+}
+
+.check-button {
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    outline: none;
+    -webkit-filter: invert(80%);
+    padding-left: 50px;
+}
+
+.check-button:hover,
+.trash-button:hover {
+    -webkit-filter: invert(100%);
+    cursor: grab;
+}
+
+.plus-button {
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    -webkit-filter: invert(80%);
+}
+
+.plus-button:active,
+.plus-button:focus {
+    outline: none;
+}
+
+.plus-button:hover {
+    -webkit-filter: invert(100%);
+    cursor: grab;
+}
+
+.clearAll {
+    font-size: 2rem;
+    background: transparent;
+    color: #e6e3e3;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.clearAll a {
+    color: #e6e3e3;
+}
+
+.clearAll:hover {
+    color: white;
+    cursor: grab;
+}
+
+i {
+    pointer-events: none;
+}
